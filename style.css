@@ -1,0 +1,486 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ body {
+    background-color: black;
+    overflow-x: hidden;
+ }
+
+ .main {
+    width: 100vw;
+    height: 80vh;
+    background-image: url("assets/image/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+
+ }
+
+ .text1 {
+    font-size: 50px;
+    font-weight: bolder;
+ }
+
+ .sep {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    z-index: 4;
+    top: 15px;
+ }
+
+ .logo {
+    width: 10vw;
+ }
+
+ .btn {
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+ }
+ .btn a{
+   text-decoration: none;
+color: white;
+ }
+
+ .option {
+    width: 100px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: tans;
+    border-radius: 4px;
+ }
+
+ .option select {
+    background-color: transparent;
+    color: white;
+    border: none;
+ }
+
+ .option select option {
+    background-color: rgb(184, 172, 172);
+    color: black;
+ }
+
+ .box {
+    position: absolute;
+    background-color: black;
+    height: 80vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    opacity: 0.79;
+    z-index: 1;
+ }
+
+ .text {
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    margin-top: 100px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+ }
+
+ .mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 5px;
+    position: relative;
+    z-index: 2;
+ }
+
+ .input input {
+    width: 180px;
+    height: 8vh;
+    font-weight: bolder;
+    border-radius: 4px;
+    border: 2px solid white;
+    background-color: transparent;
+    width: 28vw;
+    color: white;
+    cursor: pointer;
+
+ }
+
+ .start button {
+    background-color: #f50303;
+    height: 9vh;
+    width: 22vw;
+    border-radius: 4px;
+    border: 2px solid rgb(252, 24, 24);
+    font-size: large;
+    
+    font-weight: bolder;
+    cursor: pointer;
+     
+ }
+ .start button a{
+   
+    text-decoration: none;
+    color: white;
+ }
+
+ .arrow {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0px 9vw;
+
+ }
+
+ .left,
+ .right {
+    height: 80px;
+    width: 30px;
+
+    font-weight: bolder;
+    background-color: rgb(62, 61, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+ }
+
+ .transition {
+    width: 75vw;
+    height: 310px;
+    color: white;
+    margin: auto;
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scrollbar-width: none;
+ }
+
+ .transition .flexa img {
+    display: flex;
+    display: grid;
+    margin: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+
+ }
+
+ .flexa:hover {
+    transform: scale(.9);
+
+ }
+
+ .tex {
+    color: white;
+    width: 30vw;
+    height: 5vw;
+    font-size: 30px;
+    position: relative;
+    left: 12vw;
+    padding-top: 12px;
+    display: flex;
+
+ }
+
+ .tex1 {
+    color: white;
+    width: 30vw;
+    height: 5vw;
+    font-size: 30px;
+    position: relative;
+    left: 12vw;
+    padding-top: 12px;
+ }
+
+
+ .flex {
+    text-align: center;
+    column-gap: 22px;
+    display: grid;
+    grid-template-columns: 225px 225px 225px 225px;
+    color: white;
+    width: 75vw;
+    margin: auto;
+    justify-content: center;
+
+
+ }
+
+ .f1 {
+    border-radius: 4px;
+    gap: 10px;
+    border: 3px solid black;
+    height: 300px;
+    background: linear-gradient(90deg, #4A0088 0%, #D5008F 100%);
+    border-radius: 13px;
+    padding: 10px 20px;
+ }
+
+ .f1:hover {
+    background: linear-gradient(90deg, #b04fff 0%, #f917ae 90%);
+
+
+ }
+
+ .tex2 {
+    color: white;
+    width: 75vw;
+    height: 5vw;
+    font-size: 30px;
+    position: relative;
+    left: 10vw;
+    padding-top: 12px;
+    margin: auto;
+ }
+
+ .qa {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+    display: grid;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    gap: 10px;
+    font-size: 21px;
+    font-weight: bolder;
+    width: 75vw;
+    margin: auto;
+    color: white;
+
+
+ }
+
+ .qa .q {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(63, 62, 62);
+    background-color: rgb(70, 67, 67);
+ }
+
+ .qa .q:hover {
+    background-color: rgb(147, 143, 143)
+ }
+
+ .tex4 {
+    display: flex;
+    color: white;
+    width: 75vw;
+    height: 5vw;
+    font-size: 18px;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+    font-weight: bolder;
+    row-gap: 0px;
+ }
+
+ .bt {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ .inputa input {
+    width: 40vw;
+    height: 10vh;
+    font-weight: bolder;
+    border-radius: 4px;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+ }
+
+ .starta button {
+    background-color: #f50303;
+    height: 10vh;
+    width: 15vw;
+    border-radius: 4px;
+    border: 2px solid rgb(252, 24, 24);
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+ }
+
+ .tex5 {
+    margin-left: 12vw;
+    margin-top: 5vh;
+    color: rgb(203, 201, 201);
+    font-size: 16px;
+
+ }
+
+ .t {
+    padding-top: 5vh;
+    display: flex;
+    width: 75vw;
+    justify-content: space-between;
+    margin: auto;
+ }
+
+ .t ul {
+
+    cursor: pointer;
+    color: rgb(203, 201, 201);
+    justify-content: space-between;
+    text-decoration-line: underline;
+ }
+
+ .t ul li {
+    padding: 10px;
+    list-style: none;
+ }
+
+ .plus {
+    color: white;
+ }
+
+ .t ul a {
+    color: rgb(203, 201, 201);
+ }
+
+ @media screen and (max-width:1100px) {
+
+    .mid {
+
+       display: flex;
+       flex-direction: column;
+       row-gap: 15px;
+
+    }
+
+    .text1 {
+       font-size: 30px;
+
+    }
+
+    .input input {
+       height: 6vh;
+       font-weight: bolder;
+       border-radius: 4px;
+       border: 2px solid white;
+       background-color: transparent;
+       width: 60vw;
+       color: white;
+       cursor: pointer;
+
+    }
+
+    .start button {
+       background-color: #f50303;
+       height: 7vh;
+       width: 40vw;
+       border-radius: 4px;
+       border: 2px solid rgb(252, 24, 24);
+       font-size: large;
+       color: white;
+       font-weight: bolder;
+       cursor: pointer;
+    }
+
+    .flex {
+       display: flex;
+       flex-direction: column;
+       row-gap: 10px;
+       max-width: 80vw;
+    }
+
+    .t {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+    .bt {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+
+    }
+
+    .inputa input {
+       width: 70vw;
+       height: 45px;
+       font-weight: bolder;
+       border-radius: 4px;
+       border: 2px solid white;
+       background-color: transparent;
+       cursor: pointer;
+
+    }
+
+    .starta button {
+       background-color: #f50303;
+       height: 9vh;
+       width: 40vw;
+       border-radius: 4px;
+       border: 2px solid rgb(252, 24, 24);
+       font-size: large;
+       color: white;
+       font-weight: bolder;
+       cursor: pointer;
+    }
+
+    .tex4 {
+
+       color: white;
+       height: 80px;
+       font-size: 18px;
+       font-weight: bolder;
+       max-width: 75vw;
+       position: relative;
+
+    }
+
+    .tex2 {
+       display: grid;
+       grid-template-columns: 1fr;
+       color: white;
+       max-width: 75vw;
+       height: 80px;
+       font-size: 25px;
+       position: relative;
+
+       left: 10vw;
+       padding-top: 12px;
+    }
+
+    .tex1 {
+       color: white;
+       width: 75vw;
+       height: 70px;
+       font-size: 25px;
+       /* margin: auto; */
+       position: relative;
+       left: 12vw;
+       padding-top: 12px;
+    }
+
+    .tex {
+       color: white;
+       width: 75vw;
+       height: 70px;
+       font-size: 25px;
+       /* margin: auto; */
+       position: relative;
+       left: 12vw;
+       padding-top: 12px;
+    }
+
+    .logo {
+       width: 16vw;
+    }
+
+
+ }    
