@@ -73,7 +73,7 @@ color: white;
  .box {
     position: absolute;
     background-color: black;
-    height: 80vh;
+    height: 100%;
     width: 100vw;
     left: 0;
     top: 0;
